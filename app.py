@@ -22,7 +22,7 @@ class_names = ['Bacterial Blight', 'Brown Spot', 'Healthy', 'Hispa', 'Leaf Blast
 #                    custom_objects={'KerasLayer':hub.KerasLayer})
 
 # Load Model TANPA GPU
-model = load_model(('models/model.h5'),
+model = load_model(('models/model-mix.h5'),
                    compile=False,
                    custom_objects={'KerasLayer':hub.KerasLayer})
 
